@@ -1,13 +1,13 @@
 {
-  "name": "Better Pull Request for GitHub",
-  "short_name": "Better PRs",
+  "name": "SQ Better Pull Request for GitHub",
+  "short_name": "SQ Better PRs",
   "permissions": [
-    "*://*.github.com/*"
+    "https://github.bank.swissquote.ch/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "*://*.github.com/*"
+        "https://github.bank.swissquote.ch/*"
       ],
       "run_at": "document_idle",
       "js": [
